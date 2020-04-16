@@ -1,0 +1,21 @@
+{
+  "name": "react.native",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "celebrate": "^12.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jest": "^25.2.7",
+    "knex": "^0.20.13",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
